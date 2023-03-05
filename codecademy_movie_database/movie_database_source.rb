@@ -3,6 +3,7 @@
 # and I felt like I knew enough to tackle making a smallish project like this. There are likely many cases where things will break terribly.
 # :)
 
+system(ls)
 $movies = Hash.new{"No Movies Yet"}
 
 $test_hash = {
