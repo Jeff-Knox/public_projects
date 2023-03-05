@@ -287,7 +287,6 @@ def main_loop
   end
 end
 
-begin
-  system(ls)
+loop do
   main_loop
 end
